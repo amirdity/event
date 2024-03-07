@@ -10,7 +10,10 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "AMIR EVENT",
-  description: "this platform created for event managing",
+  description: "this platform created for event managment",
+  icons: {
+    icon:'/assets/images/logo.svg'
+  }
 };
 
 export default function RootLayout({
